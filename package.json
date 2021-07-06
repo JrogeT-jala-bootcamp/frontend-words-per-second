@@ -1,0 +1,19 @@
+{
+  "name": "words-per-second",
+  "version": "1.0.0",
+  "description": "A single project to count how many words can be typed per second",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test echo\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jroget-jala-bootcamp/frontend-words-per-second.git"
+  },
+  "author": "Jorge Rodrigo Torrez Aramayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jroge-jala-bootcamp/frontend-words-per-second/issues"
+  },
+  "homepage": "https://github.com/jroge-jala-bootcamp/frontend-words-per-second#readme"
+}
