@@ -3,7 +3,7 @@
 let wordsInput = document.getElementById("words-input");
 let wordsMessage = document.getElementById("words-message");
 let startBtn = document.getElementById("start-btn");
-let secondsToAnalyse = 30;
+let secondsToAnalyse = 5;
 let typing = false;
 let onTime = true;
 
@@ -39,7 +39,7 @@ function showResults() {
     // let words = wordsInput.value.split(" ");
     let words = wordsInput.value.replace(/[^ ]/g, "");
     let speed = (words.length + 1) / secondsToAnalyse;
-    wordsMessage.innerHTML = `Analysis finished! Result: ${speed} words/second`;
+    wordsMessage.innerHTML = `Analysis finished! Result: ${speed.toFixed(2)} words/second`;
     startBtn.hidden = false;
 }
 
