@@ -3,7 +3,7 @@
 let wordsInput = document.getElementById("words-input");
 let wordsMessage = document.getElementById("words-message");
 let startBtn = document.getElementById("start-btn");
-let secondsToAnalyse = 5;
+let secondsToAnalyse = 30;
 let typing = false;
 let onTime = true;
 
